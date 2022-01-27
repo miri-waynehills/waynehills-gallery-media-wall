@@ -1,17 +1,13 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-html,
-body
-{
+html, body {
     overflow: hidden;
 }
 
-.webgl
-{
+.webgl {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +18,6 @@ body
 .position-base {
     position: absolute;
     z-index: 10;
-    /* opacity: 0.6; */
 }
 
 .loading-container {
@@ -40,10 +35,6 @@ body
 	background-color: #000000;
 	opacity: 1;
  	transition: 1s opacity;
-    /* background-image:url(../static/textures/bg-loading.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center; */
 }
 
 #loading-screen.fade-out {
